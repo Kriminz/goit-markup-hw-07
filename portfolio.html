@@ -14,27 +14,27 @@
 </head>
 
 <body>
-    <header class="head">
+    <header class="page-header">
         <!--Навігація-->
-        <div class="container flex">
-            <nav class="navbar flex">
-                <a class="logo" href="#"><span class="icon">Web</span>Studio</a>
-                <ul class="nav-list">
-                    <li class="nav-type"><a href="./index.html" class="link nav">Студія</a></li>
-                    <li class="nav-type"><a href="./portfolio.html" class="link nav current">Портфоліо</a></li>
-                    <li class="nav-type"><a href="/contacts" class="link nav">Контакти</a></li>
+        <div class="container container--flex">
+            <nav class="nav">
+                <a class="logo" href="#"><span class="logo--blue">Web</span>Studio</a>
+                <ul class="nav__list">
+                    <li class="nav__type"><a href="./index.html" class="link nav__link ">Студія</a></li>
+                    <li class="nav__type"><a href="./portfolio.html" class="link nav__link  nav__link--current">Портфоліо</a></li>
+                    <li class="nav__type"><a href="/contacts" class="link nav__link ">Контакти</a></li>
                 </ul>
             </nav>
 
-            <div class="nav-links">
-                <a href="mailto:info@devstudio.com" class="link head">
-                    <svg class="icon-mail">
+            <div class="page-header__cont">
+                <a href="mailto:info@devstudio.com" class="link page-header__link">
+                    <svg class="page-header__icon" width="16" height="12">
                         <use href="./img/icons.svg#icon-mail"></use>
                     </svg>
                     info@devstudio.com
                 </a>
-                <a href="tel:+380961111111" class="link head">
-                    <svg class="icon-phone">
+                <a href="tel:+380961111111" class="link page-header__link">
+                    <svg class="page-header__icon" width="10" height="16">
                         <use href="./img/icons.svg#icon-phone"></use>
                     </svg>
                     +38 096 111 11 11
@@ -50,109 +50,109 @@
 
                 <!--Фільтр пошуку-->
                 <h2 class="hide">Фільтр</h2>
-                <ul class="filter-list">
-                    <li class="filter-type"><button type="button" class="button filter-btn">Усі</button></li>
-                    <li class="filter-type"><button type="button" class="button filter-btn">Веб-сайти</button></li>
-                    <li class="filter-type"><button type="button" class="button filter-btn">Додатки</button></li>
-                    <li class="filter-type"><button type="button" class="button filter-btn">Дизайн</button></li>
-                    <li class="filter-type"><button type="button" class="button filter-btn">Маркетинг</button></li>
+                <ul class="filter">
+                    <li class="filter__type"><button type="button" class="button filter__btn">Усі</button></li>
+                    <li class="filter__type"><button type="button" class="button filter__btn">Веб-сайти</button></li>
+                    <li class="filter__type"><button type="button" class="button filter__btn">Додатки</button></li>
+                    <li class="filter__type"><button type="button" class="button filter__btn">Дизайн</button></li>
+                    <li class="filter__type"><button type="button" class="button filter__btn">Маркетинг</button></li>
                 </ul>
 
                 <!--Проекти-->
                 <h2 class="hide">Список проектів</h2>
                 <ul class="projects">
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
                             <div class="box">
-                                <img class="project-img" src="./img/tech.jpg" alt="Проект 1" width="370">
-                                <div class="overlay">
-                                    <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
+                                <img class="projects__img" src="./img/tech.jpg" alt="Проект 1" width="370">
+                                <div class="projects__overlay overlay">
+                                    <p class="overlay__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                         та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію
                                         чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="notes">
-                                <h3 class="project-title">Технокряк</h3>
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Технокряк</h3>
                                 <p class="description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/poster.jpg" alt="Проект 2" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
+                            <img class="projects__img" src="./img/poster.jpg" alt="Проект 2" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Постер New Orlean vs Golden Star</h3>
                                 <p class="description">Дизайн</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/restau.jpg" alt="Проект 3" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Ресторан Seafood</h3>
+                            <img class="projects__img" src="./img/restau.jpg" alt="Проект 3" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Ресторан Seafood</h3>
                                 <p class="description">Додаток</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/prime.jpg" alt="Проект 4" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Проєкт Prime</h3>
+                            <img class="projects__img" src="./img/prime.jpg" alt="Проект 4" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Проєкт Prime</h3>
                                 <p class="description">Маркетинг</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/box.jpg" alt="Проект 5" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Проєкт Boxes</h3>
+                            <img class="projects__img" src="./img/box.jpg" alt="Проект 5" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Проєкт Boxes</h3>
                                 <p class="description">Додаток</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/inspiration.jpg" alt="Проект 6" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Inspiration has no Borders</h3>
+                            <img class="projects__img" src="./img/inspiration.jpg" alt="Проект 6" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Inspiration has no Borders</h3>
                                 <p class="description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/edition.jpg" alt="Проект 7" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Видання Limited Edition</h3>
+                            <img class="projects__img" src="./img/edition.jpg" alt="Проект 7" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Видання Limited Edition</h3>
                                 <p class="description">Дизайн</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/lab.jpg" alt="Проект 8" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Проєкт LAB</h3>
+                            <img class="projects__img" src="./img/lab.jpg" alt="Проект 8" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Проєкт LAB</h3>
                                 <p class="description">Маркетинг</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="project">
+                    <li class="projects__type">
                         <a href="#">
-                            <img class="project-img" src="./img/gb.jpg" alt="Проект 9" width="370">
-                            <div class="notes">
-                                <h3 class="project-title">Growing Business</h3>
+                            <img class="projects__img" src="./img/gb.jpg" alt="Проект 9" width="370">
+                            <div class="projects__notes">
+                                <h3 class="projects__title">Growing Business</h3>
                                 <p class="description">Додаток</p>
                             </div>
                         </a>
@@ -162,54 +162,54 @@
         </section>
     </main>
 
-    <footer class="bottom">
-        <div class="container loc">
+    <footer class="footer">
+        <div class="container footer__container--flex">
             <div>
-                <a class="logo second" href="#"><span class="icon">Web</span>Studio</a>
+                <a class="logo logo--white" href="#"><span class="logo--blue">Web</span>Studio</a>
 
                 <address class="address">
-                    <ul class="address-list">
-                        <li class="address-type">
-                            <p class="building">м. Київ, пр-т Лесі Українки, 26</p>
+                    <ul class="address__list">
+                        <li class="address__type">
+                            <p class="address__building">м. Київ, пр-т Лесі Українки, 26</p>
                         </li>
 
-                        <li class="address-type">
-                            <a href="mailto:info@devstudio.com" class="link cont">info@devstudio.com</a>
+                        <li class="address__type">
+                            <a href="mailto:info@devstudio.com" class="link address__cont">info@devstudio.com</a>
                         </li>
 
-                        <li class="address-type">
-                            <a href="tel:+380961111111" class="link cont">+38 096 111 11 11</a>
+                        <li class="address__type">
+                            <a href="tel:+380961111111" class="link address__cont">+38 096 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
 
-            <div class="join-icons">
-                <p class="join">Приєднуйтесь</p>
-                <ul class="icon-list">
-                    <li class="icon-type">
-                        <a href="" class="link-icon" aria-label="Instagram">
+            <div class="join">
+                <p class="join__title">Приєднуйтесь</p>
+                <ul class="join__list">
+                    <li class="join__type">
+                        <a href="" class="join__icon" aria-label="Instagram">
                             <svg class="icon" width="20" height="20">
                                 <use href="./img/icons.svg#instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="icon-type">
-                        <a href="" class="link-icon" aria-label="Facebook">
+                    <li class="join__type">
+                        <a href="" class="join__icon" aria-label="Facebook">
                             <svg class="icon" width="20" height="20">
                                 <use href="./img/icons.svg#facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="icon-type">
-                        <a href="" class="link-icon" aria-label="Twitter">
+                    <li class="join__type">
+                        <a href="" class="join__icon" aria-label="Twitter">
                             <svg class="icon" width="20" height="20">
                                 <use href="./img/icons.svg#twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="icon-type">
-                        <a href="" class="link-icon" aria-label="Linkedin">
+                    <li class="join__type">
+                        <a href="" class="join__icon" aria-label="Linkedin">
                             <svg class="icon" width="20" height="20">
                                 <use href="./img/icons.svg#linkedin"></use>
                             </svg>
@@ -218,11 +218,11 @@
                 </ul>
             </div>
 
-            <form class="sub-form js-speaker-form">
-                <label class="sub-lb" for="email"> Підпишіться на розсилку</label>
+            <form class="sub js-speaker-form">
+                <label class="sub__lb" for="email"> Підпишіться на розсилку</label>
                 <div class="summon">
-                    <input class="sub-in" name="email" type="email" id="email" placeholder="E-mail" required>
-                    <button class=" button sub" type="submit">Підписатися
+                    <input class="sub__in" name="email" type="email" id="email" placeholder="E-mail" required>
+                    <button class=" button sub__btn" type="submit">Підписатися
                         <svg class="send" width="24" height="24">
                             <use href="./img/icons.svg#send"></use>
                         </svg>
