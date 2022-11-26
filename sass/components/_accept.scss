@@ -1,0 +1,47 @@
+.accept {
+  margin-top: 27px;
+  text-align: center;
+}
+
+.accept__label {
+  position: relative;
+}
+
+.accept__checkbox {
+  appearance: none;
+
+  width: 16px;
+  height: 15px;
+}
+
+.accept__icon {
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.accept__icon .uncheck {
+  opacity: 1;
+  transition: opacity 250ms var(--cubic-bezier);
+}
+
+.accept__checkbox:checked + .checkbox-icon .uncheck {
+  opacity: 0;
+}
+
+.checkbox-icon .check {
+  opacity: 0;
+  transition: opacity 250ms var(--cubic-bezier);
+}
+
+.accept__checkbox:checked + .checkbox-icon .check {
+  opacity: 1;
+}
+
+.accept__privacy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--dis-link-color);
+}

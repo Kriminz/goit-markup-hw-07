@@ -1,0 +1,33 @@
+.benefists {
+  padding-bottom: 0;
+}
+
+.benefists__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26.5px;
+
+  width: 270px;
+  height: 120px;
+  background-color: var(--butn-team-color);
+  border-radius: 4px;
+}
+
+.benefists__type:not(:first-child) {
+  margin-left: 30px;
+}
+
+.benefists__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefists__desc {
+  width: 270px;
+}

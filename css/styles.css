@@ -895,7 +895,7 @@ svg {
   border: 1px solid var(--link-button-color);
 }
 
-.modal__input:focus-visible ~ .modal-svg {
+.modal__input:focus-visible ~ .modal__svg {
   fill: var(--link-button-color);
 }
 

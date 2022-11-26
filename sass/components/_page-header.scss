@@ -1,0 +1,15 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+
+      &__cont {
+        margin-left: auto;
+      
+        display: block;
+      }
+
+      &__icon {
+        margin-right: 5px;
+        fill: currentColor;
+      }
+
+}

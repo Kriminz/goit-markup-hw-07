@@ -1,0 +1,52 @@
+.team {
+  background-color: var(--butn-team-color);
+}
+
+.team__name {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.9;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team__member {
+  background-color: var(--second-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
+}
+
+.team__foto {
+  margin-bottom: 30px;
+}
+
+.team__note {
+  padding-bottom: 30px;
+}
+
+.name {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.job {
+  margin-bottom: 16px;
+
+  color: var(--dis-link-color);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
