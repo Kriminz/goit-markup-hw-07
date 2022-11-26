@@ -831,7 +831,7 @@ svg {
   cursor: pointer;
 }
 
-.modal__close-btn:hover .close-icon {
+.modal__close-btn:hover .modal__close-icon {
   fill: var(--link-button-color);
 }
 
@@ -890,7 +890,7 @@ svg {
   border-radius: 4px;
 }
 
-.modal___input:focus-visible {
+.modal__input:focus-visible {
   outline: none;
   border: 1px solid var(--link-button-color);
 }
