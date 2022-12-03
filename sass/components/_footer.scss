@@ -6,5 +6,13 @@
 }
 
 .footer__container--flex {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.footer__main{
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
 }

@@ -1,6 +1,10 @@
 .join {
-  margin-left: 70px;
-  margin-top: 21px;
+  // margin-left: 70px;
+  // margin-top: 21px;
+  @media screen and (min-width: 480px) {
+    margin-top: 60px;
+    text-align: center;
+  }
 }
 
 .join__title {
@@ -14,12 +18,19 @@
   color: var(--second-color);
 }
 
+.join__list {
+  @media screen and (max-width: 1199px) {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .join__type {
   margin-right: 10px;
-  
-    &:nth-child(4n) {
-      margin-right: 0;
-    }
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
 }
 
 .join__icon {
@@ -35,10 +46,10 @@
 
   transition: background-color 250ms var(--cubic-bezier);
 
-    &:hover,
-    &:focus {
-      background-color: var(--link-button-color);
-    }
+  &:hover,
+  &:focus {
+    background-color: var(--link-button-color);
+  }
 }
 
 .icon {

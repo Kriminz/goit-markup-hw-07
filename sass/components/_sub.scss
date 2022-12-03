@@ -3,13 +3,17 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-top: 12px;
-  margin-bottom: 34px;
+  @media screen and (min-width: 480px) {
+    margin-top: 60px;
+  }
+  // margin-bottom: 34px;
 }
 
 .sub__lb {
   position: absolute;
   top: 0;
+  left: 0;
+  transform: translateX(60%);
 
   font-weight: 700;
   font-size: 14px;
@@ -20,17 +24,24 @@
 }
 
 .summon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  margin-top: 40px;
 }
 
 .sub__in {
-  margin-right: 12px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 12px;
+  }
   padding: 15px 16px;
 
   width: 358px;
+  @media screen and (max-width: 767px) {
+    width: 450px;
+  }
   height: 50px;
   background-color: var(--hero-footer-bgc);
   color: var(--second-color);

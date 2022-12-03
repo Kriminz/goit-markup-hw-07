@@ -1,15 +1,27 @@
 .page-header {
   border-bottom: 1px solid #ececec;
 
-      &__cont {
-        margin-left: auto;
-      
-        display: block;
-      }
+  &__cont {
+    margin-left: auto;
 
-      &__icon {
-        margin-right: 5px;
-        fill: currentColor;
-      }
+    display: block;
+  }
 
+  &__icon {
+    margin-right: 5px;
+    fill: currentColor;
+  }
+}
+
+.page-header__logo{
+  @media screen and (max-width: 767px) {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.page-header__cont {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }

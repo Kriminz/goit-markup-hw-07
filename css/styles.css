@@ -172,7 +172,7 @@ svg {
   text-align: center;
 }
 
-.hero--overlay {
+/* .hero--overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -186,7 +186,7 @@ svg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .hero__title {
   margin: 0 237px;

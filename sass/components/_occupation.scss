@@ -1,3 +1,9 @@
+.section--hide{
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .occupation {
   margin-bottom: 50px;
 

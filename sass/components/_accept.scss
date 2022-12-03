@@ -25,16 +25,16 @@
   transition: opacity 250ms var(--cubic-bezier);
 }
 
-.accept__checkbox:checked + .checkbox__icon .uncheck {
+.accept__checkbox:checked + .accept__icon .uncheck {
   opacity: 0;
 }
 
-.checkbox__icon .check {
+.accept__icon .check {
   opacity: 0;
   transition: opacity 250ms var(--cubic-bezier);
 }
 
-.accept__checkbox:checked + .checkbox__icon .check {
+.accept__checkbox:checked + .accept__icon .check {
   opacity: 1;
 }
 
