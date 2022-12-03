@@ -1,5 +1,5 @@
 .accept {
-  margin-top: 27px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -40,8 +40,12 @@
 
 .accept__privacy {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  // font-size: 14px;
+  // line-height: 1.71;
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.16;
+  }
   letter-spacing: 0.03em;
   color: var(--dis-link-color);
 }
