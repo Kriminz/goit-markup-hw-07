@@ -1,6 +1,8 @@
-// .benefists{
-//   padding-bottom: 0;
-// }
+.benefists{
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 0;
+  }
+}
 
 .benefists__list{
   margin-top: -30px;
@@ -27,10 +29,13 @@
 }
 
 .benefists__type{
-  margin-top: 30px;
-  @media screen and (min-width: 768px) {
+  // margin-top: 30px;
+  margin: 15px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: calc((100% - 2 * 30px) / 2);
-    margin: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 4 * 30px) / 4);
   }
 }
 
