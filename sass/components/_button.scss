@@ -7,6 +7,29 @@
   border-radius: 4px;
 }
 
+// .menu__btn {
+//   @media screen and (max-width: 767px) {
+//     margin-left: 150%;
+//     display: inline-flex;
+//     padding: 0;
+//     border: none;
+
+//     background-color: transparent;
+
+//     & .menu__icon-close{
+//       display: none;
+//     }
+    
+//     &.is-open .menu__icon-close{
+//       display: block;
+//     }
+    
+//     &.is-open .menu__icon-menu{
+//       display: none;
+//     }
+//   }
+// }
+
 .hero__btn {
   padding: 10px 24px;
 
