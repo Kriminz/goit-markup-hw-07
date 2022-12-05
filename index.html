@@ -125,7 +125,9 @@
                 <ul class="occupation__pictures">
                     <li class="occupation__type">
                         <div class="occupation__box">
-                            <img class="occupation__img" src="./img/laptop.jpg" alt="work" width="370">
+                            <img class="occupation__img"
+                                srcset="./img/occupation/laptop.jpg 1x, ./img/occupation/od2x_lap.jpg 2x"
+                                src="./img/occupation/laptop.jpg" alt="work" width="370">
                             <div class="occupation__overlay">
                                 <p class="occupation__name">Десктопні додатки</p>
                             </div>
@@ -134,7 +136,9 @@
 
                     <li class="occupation__type">
                         <div class="occupation__box">
-                            <img class="occupation__img" src="./img/phone.jpg" alt="work" width="370">
+                            <img class="occupation__img"
+                                srcset="./img/occupation/phone.jpg 1x, ./img/occupation/od2x_ph.jpg 2x"
+                                src="./img/occupation/phone.jpg" alt="work" width="370">
                             <div class="occupation__overlay">
                                 <p class="occupation__name">Мобільні додатки</p>
                             </div>
@@ -143,7 +147,9 @@
 
                     <li class="occupation__type">
                         <div class="occupation__box">
-                            <img class="occupation__img" src="./img/tablet.jpg" alt="work" width="370">
+                            <img class="occupation__img"
+                                srcset="./img/occupation/tablet.jpg 1x, ./img/occupation/od2x_tb.jpg 2x"
+                                src="./img/occupation/tablet.jpg" alt="work" width="370">
                             <div class="occupation__overlay">
                                 <p class="occupation__name">Дизайнерські рішення</p>
                             </div>
@@ -160,7 +166,15 @@
                 <h2 class="team__name">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__member">
-                        <img class="team__foto" src="./img/PD.jpg" alt="Участник команди" width="270">
+                        <img class="team__foto" 
+                            srcset="./img/team/phone/tp1x.jpg 450w , 
+                            ./img/team/phone/tp2x.jpg 900w, 
+                            ./img/team/tablet/tt1x.jpg 354w, 
+                            ./img/team/tablet/tt2x.jpg 708w, 
+                            ./img/team/td1x.jpg 270w, 
+                            ./img/team/td2x.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./img/team/tp1x.jpg" alt="Участник команди">
                         <div class="team__note">
                             <h3 class="name">Ігор Дем'яненко</h3>
                             <p class="job">Product Designer</p>
@@ -201,7 +215,15 @@
                     </li>
 
                     <li class="team__member">
-                        <img class="team__foto" src="./img/FD.jpg" alt="Участник команди" width="270">
+                        <img class="team__foto" 
+                            srcset="./img/team/phone/tp1x-1.jpg 450w , 
+                            ./img/team/phone/tp2x-1.jpg 900w, 
+                            ./img/team/tablet/tt1x-1.jpg 354w, 
+                            ./img/team/tablet/tt2x-1.jpg 708w, 
+                            ./img/team/td1x-1.jpg 270w, 
+                            ./img/team/td2x-1.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./img/team/tp1x-1.jpg" alt="Участник команди">
                         <div class="team__note">
                             <h3 class="name">Ольга Рєпіна</h3>
                             <p class="job">Frontend Developer</p>
@@ -242,7 +264,15 @@
                     </li>
 
                     <li class="team__member">
-                        <img class="team__foto" src="./img/M.jpg" alt="Участник команди" width="270">
+                        <img class="team__foto" 
+                            srcset="./img/team/phone/tp1x-2.jpg 450w , 
+                            ./img/team/phone/tp2x-2.jpg 900w, 
+                            ./img/team/tablet/tt1x-2.jpg 354w, 
+                            ./img/team/tablet/tt2x-2.jpg 708w, 
+                            ./img/team/td1x-2.jpg 270w, 
+                            ./img/team/td2x-2.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./img/team/tp1x-2.jpg" alt="Участник команди">
                         <div class="team__note">
                             <h3 class="name">Микола Тарасов</h3>
                             <p class="job">Marketing</p>
@@ -283,7 +313,15 @@
                     </li>
 
                     <li class="team__member">
-                        <img class="team__foto" src="./img/UID.jpg" alt="Участник команди" width="270">
+                        <img class="team__foto" 
+                            srcset="./img/team/phone/tp1x-3.jpg 450w , 
+                            ./img/team/phone/tp2x-3.jpg 900w, 
+                            ./img/team/tablet/tt1x-3.jpg 354w, 
+                            ./img/team/tablet/tt2x-3.jpg 708w, 
+                            ./img/team/td1x-3.jpg 270w, 
+                            ./img/team/td2x-3.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./img/team/tp1x-3.jpg" alt="Участник команди">
                         <div class="team__note">
                             <h3 class="name">Михайло Єрмаков</h3>
                             <p class="job">UI Designer</p>
@@ -516,14 +554,17 @@
         </button>
 
         <ul class="navigation">
-            <li class="navigation__type"><a href="./index.html" class="link navigation__link navigation__link--active">Студія</a></li>
+            <li class="navigation__type"><a href="./index.html"
+                    class="link navigation__link navigation__link--active">Студія</a></li>
             <li class="navigation__type"><a href="./portfolio.html" class="link navigation__link">Портфоліо</a></li>
             <li class="navigation__type"><a href="" class="link navigation__link">Контакти</a></li>
         </ul>
 
         <ul class="contacts">
-            <li class="contacts__type"><a href="tel:+380961111111" class="link contacts__link contacts__link--blue">+38 096 111 11 11</a></li>
-            <li class="contacts__type"><a href="mailto:info@devstudio.com" class="link contacts__link">info@devstudio.com</a></li>
+            <li class="contacts__type"><a href="tel:+380961111111" class="link contacts__link contacts__link--blue">+38
+                    096 111 11 11</a></li>
+            <li class="contacts__type"><a href="mailto:info@devstudio.com"
+                    class="link contacts__link">info@devstudio.com</a></li>
         </ul>
 
         <ul class="media">
@@ -531,7 +572,7 @@
             <li class="media__type"><a href="#" class="link media__link">Twitter</a></li>
             <li class="media__type"><a href="#" class="link media__link">Facebook</a></li>
             <li class="media__type"><a href="#" class="link media__link">LinkedIn</a></li>
-        </ul> 
+        </ul>
     </div>
 
     <script src="./js/modal.js"></script>
